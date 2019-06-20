@@ -44,7 +44,7 @@ public class Lesson5 {
     double d2 = 23.65E8;
 
     // Using underscores to make the numbers readable
-    long l2 = 4_568_367L;
+    long l2 = 4_568_987_367L;
 
 
     // This method shows a local variable

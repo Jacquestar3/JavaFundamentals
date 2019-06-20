@@ -6,10 +6,23 @@ This is an example of a multi-line comment.
 public class Main {
 
     public static void main(String[] args) {
-       moreLesson6();
-      //lesson6Examples();
-      //lesson5Examples();
-      //houseExample();
+        lesson7Examples();
+        //moreLesson6();
+        //lesson6Examples();
+        //lesson5Examples();
+        //houseExample();
+    }
+
+    public static void lesson7Examples() {
+        Lesson7 myLesson7 = new Lesson7();
+        myLesson7.basicMath();
+        myLesson7.exampleModulus();
+        // myLesson7.addTwoNumbers();
+        myLesson7.exampleAssignment1();
+        myLesson7.exampleAssignment2();
+        myLesson7.exampleRelational();
+        myLesson7.exampleIncrement();
+        myLesson7.exampleDecrement();
     }
 
     public static void moreLesson6(){
