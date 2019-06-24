@@ -13,10 +13,14 @@ public class Lesson7 {
     * They can only be applied to variables
     * Cannot be applied to boolean values
     * Example of Assignment operators
-    *   Type = Assigns value for left to right (C = A+B
-    *    
+    * Type = Assigns value for left to right (C)
+    * Rational operators example
+    * = = Equal to
+    * > Greater than
+    * < Less than
     *
-    * */
+
+        * */
     public void basicMath(){
     int addTotal = value1  + value2;
     int subtractTotal = value2 - value1;

@@ -5,13 +5,38 @@ This is an example of a multi-line comment.
  */
 public class Main {
 
-    public static void main(String[] args) {
-        lesson7Examples();
+
+    public static void main(String[] args){
+        lesson8Example2();
+        //lesson8Examples1();
+        //lesson7Examples();
         //moreLesson6();
         //lesson6Examples();
         //lesson5Examples();
         //houseExample();
     }
+
+    public static void lesson8Example2(){
+        Lesson8 otherLesson = new Lesson8();
+        otherLesson.basicWhileExample();
+        otherLesson.basicDoWhileExample();
+        otherLesson.basicForLoopExample();
+        otherLesson.basicBranchingExample();
+
+    }
+
+
+public static void lesson8Examples1(){
+        Lesson8 myLesson8 = new Lesson8();
+        myLesson8.basicIfExample(5,10); //prints before after
+        myLesson8.basicIfExample(5,5); // prints before, if & after
+        myLesson8.basicIfElseExample(  10,  12);
+        myLesson8.basicIfExample(12,12); // equal
+        myLesson8.basicIfElseChainExample ( 42);
+        myLesson8.basicIfAndorExample(36);
+        myLesson8.basicSwitchExample( 3);
+}
+
 
     public static void lesson7Examples() {
         Lesson7 myLesson7 = new Lesson7();
@@ -23,6 +48,9 @@ public class Main {
         myLesson7.exampleRelational();
         myLesson7.exampleIncrement();
         myLesson7.exampleDecrement();
+
+
+
     }
 
     public static void moreLesson6(){
