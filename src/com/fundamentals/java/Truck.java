@@ -66,10 +66,8 @@ public class  Truck {
         return windows;
     }
 
-    public void Driving() {
+    public void driving() {
        System.out.println("Driving");
-
-
     }
 }
 

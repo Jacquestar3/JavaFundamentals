@@ -8,7 +8,7 @@ package com.fundamentals.lesson10;
 public class Lesson10 {
 
  void showLesson(){
-     System.out.println("Show default lesson");
+      System.out.println("Show default lesson");
  }// end method
 
     protected void showProtected(){

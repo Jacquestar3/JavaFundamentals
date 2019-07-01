@@ -9,6 +9,11 @@ public class Lesson6 {
 
     String myString = "LaMars";
 
+    private void examplePrivate(){
+        System.out.println("This is a private method");
+
+    }
+
     // Method shows String method for charAt
     public void exampleCharAt() {
         char myChar = myString.charAt(2);
