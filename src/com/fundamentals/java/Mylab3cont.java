@@ -3,13 +3,13 @@ package com.fundamentals.java;
 public class Mylab3cont {
 
     public void labCont() {
-        int today = 0;
+        int i = 0;
         do {
-            if (today % 3 == 0) {
-                System.out.println(today);
+            if (i % 3 == 0) {
+                System.out.println(i);
             }
-            today++;
-        } while (today < 50);
+            i++;
+        } while (i < 50);
 
 
     }

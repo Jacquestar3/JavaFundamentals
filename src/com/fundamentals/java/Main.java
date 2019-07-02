@@ -25,11 +25,13 @@ static{
 
 
     public static void main(String[] args) {
-        lesson15Example();
-        // lesson14Example();
+        lesson17Example();
+        //lesson16Example();
+        //lesson15Example();
+        //lesson14Example();
         //lab3cont();
         //lesson12Example();
-        //TruckExample();
+        //truckExample();
         //lesson11Example();
         //lesson10Example();
         //Lesson9example();
@@ -41,6 +43,32 @@ static{
         //lesson5Examples();
         //houseExample();
     }// end main method
+
+
+    public static void lesson17Example(){
+
+        Lesson17 myLesson17 = new Lesson17();
+        //myLesson17.exampleArrayList1();
+        //myLesson17.exampleArrayList2();
+        //myLesson17.exampleHashSet();
+        myLesson17.exampleHashMap();
+    }
+
+
+
+    public static void lesson16Example(){
+        Lesson16 myLesson16 = new Lesson16();
+        myLesson16.showEnum();
+
+        myLesson16.myFavoriteFlavor(Lesson16.IceCreamFlavors. STRAWBERRY);
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+        for(DaysOfTheWeek day: d1){
+            System.out.println(day +" at index "+day.ordinal());
+        }
+
+    }
+
+
 
     public static void lesson15Example(){
         int[] myKeys = {0,1,2,3,4,5,6,7,9,9};
